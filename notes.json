@@ -5,7 +5,7 @@
   },
   "book": {
     "id": "aaa-dynamics",
-    "title": "Algebraic Dynamics",
+    "title": "Algebraic, Analytic, and Arithmetic Dynamics",
     "tex": "aaa-dynamics.tex",
     "url": "pdf/aaa-dynamics.pdf",
     "status": {
@@ -49,44 +49,44 @@
         ]
       },
       {
-        "id": "examples-of-dynamics",
-        "title": "Examples of dynamics",
+        "id": "actions-on-cohomology",
+        "title": "Actions on cohomology",
         "order": 2,
-        "tex": "chapters/examples-of-dynamics/examples-of-dynamics.tex",
-        "url": "pdf/chapters/examples-of-dynamics/examples-of-dynamics.pdf",
+        "tex": "chapters/actions-on-cohomology/actions-on-cohomology.tex",
+        "url": "pdf/chapters/actions-on-cohomology/actions-on-cohomology.pdf",
         "status": {
           "published": 0,
           "finished": 0
         },
         "sections": [
           {
-            "id": "on-ruled-surfaces",
-            "title": "Examples of dynamic systems on ruled surfaces",
+            "id": "dynamical-lorentzian-packages",
+            "title": "Dynamical Lorentzian packages",
             "order": 1,
-            "tex": "chapters/examples-of-dynamics/on-ruled-surfaces/on-ruled-surfaces.tex",
-            "url": "pdf/chapters/examples-of-dynamics/on-ruled-surfaces/on-ruled-surfaces.pdf",
+            "tex": "chapters/actions-on-cohomology/dynamical-lorentzian-packages/dynamical-lorentzian-packages.tex",
+            "url": "pdf/chapters/actions-on-cohomology/dynamical-lorentzian-packages/dynamical-lorentzian-packages.pdf",
             "status": {
               "published": 0,
               "finished": 0
             }
           },
           {
-            "id": "on-abelian-varieties",
-            "title": "Examples of dynamics on abelian varieties",
+            "id": "dynamical-degrees-and-lynapunov-multipliers",
+            "title": "Dynamical degrees and Lynapunov multipliers",
             "order": 2,
-            "tex": "chapters/examples-of-dynamics/on-abelian-varieties/on-abelian-varieties.tex",
-            "url": "pdf/chapters/examples-of-dynamics/on-abelian-varieties/on-abelian-varieties.pdf",
+            "tex": "chapters/actions-on-cohomology/dynamical-degrees-and-lynapunov-multipliers/dynamical-degrees-and-lynapunov-multipliers.tex",
+            "url": "pdf/chapters/actions-on-cohomology/dynamical-degrees-and-lynapunov-multipliers/dynamical-degrees-and-lynapunov-multipliers.pdf",
             "status": {
               "published": 0,
               "finished": 0
             }
           },
           {
-            "id": "on-curves",
-            "title": "On curves",
+            "id": "actions-of-jordan-blocks",
+            "title": "Actions of Jordan blocks",
             "order": 3,
-            "tex": "chapters/examples-of-dynamics/on-curves/on-curves.tex",
-            "url": "pdf/chapters/examples-of-dynamics/on-curves/on-curves.pdf",
+            "tex": "chapters/actions-on-cohomology/actions-of-jordan-blocks/actions-of-jordan-blocks.tex",
+            "url": "pdf/chapters/actions-on-cohomology/actions-of-jordan-blocks/actions-of-jordan-blocks.pdf",
             "status": {
               "published": 0,
               "finished": 0
@@ -95,22 +95,68 @@
         ]
       },
       {
-        "id": "dynamics-on-neron-severi-groups",
-        "title": "Dynamics on Néron-Severi groups",
+        "id": "periodic-points-and-orbits",
+        "title": "Periodic points and orbits",
         "order": 3,
-        "tex": "chapters/dynamics-on-neron-severi-groups/dynamics-on-neron-severi-groups.tex",
-        "url": "pdf/chapters/dynamics-on-neron-severi-groups/dynamics-on-neron-severi-groups.pdf",
+        "tex": "chapters/periodic-points-and-orbits/periodic-points-and-orbits.tex",
+        "url": "pdf/chapters/periodic-points-and-orbits/periodic-points-and-orbits.pdf",
         "status": {
           "published": 0,
           "finished": 0
         },
         "sections": [
           {
-            "id": "actions-of-jordan-blocks",
-            "title": "Actions of Jordan blocks",
+            "id": "density-of-periodic-points-for-cohomologically-hyperbolic-maps",
+            "title": "Density of periodic points for cohomologically hyperbolic maps",
             "order": 1,
-            "tex": "chapters/dynamics-on-neron-severi-groups/actions-of-jordan-blocks/actions-of-jordan-blocks.tex",
-            "url": "pdf/chapters/dynamics-on-neron-severi-groups/actions-of-jordan-blocks/actions-of-jordan-blocks.pdf",
+            "tex": "chapters/periodic-points-and-orbits/density-of-periodic-points-for-cohomologically-hyperbolic-maps/density-of-periodic-points-for-cohomologically-hyperbolic-maps.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/density-of-periodic-points-for-cohomologically-hyperbolic-maps/density-of-periodic-points-for-cohomologically-hyperbolic-maps.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "arithmetic-degrees-and-kawaguchi-silverman-conjecture",
+            "title": "Arithmetic degrees and Kawaguchi-Silverman conjecture",
+            "order": 2,
+            "tex": "chapters/periodic-points-and-orbits/arithmetic-degrees-and-kawaguchi-silverman-conjecture/arithmetic-degrees-and-kawaguchi-silverman-conjecture.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/arithmetic-degrees-and-kawaguchi-silverman-conjecture/arithmetic-degrees-and-kawaguchi-silverman-conjecture.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "endomorphisms-on-projective-spaces",
+        "title": "Endomorphisms on projective spaces",
+        "order": 4,
+        "tex": "chapters/endomorphisms-on-projective-spaces/endomorphisms-on-projective-spaces.tex",
+        "url": "pdf/chapters/endomorphisms-on-projective-spaces/endomorphisms-on-projective-spaces.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "moduli-of-dynamics-on-projective-spaces",
+            "title": "Moduli of dynamics on projective spaces",
+            "order": 1,
+            "tex": "chapters/endomorphisms-on-projective-spaces/moduli-of-dynamics-on-projective-spaces/moduli-of-dynamics-on-projective-spaces.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/moduli-of-dynamics-on-projective-spaces/moduli-of-dynamics-on-projective-spaces.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "dynamical-uniform-boundedness",
+            "title": "Dynamical uniform boundedness",
+            "order": 2,
+            "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.pdf",
             "status": {
               "published": 0,
               "finished": 0
@@ -121,7 +167,7 @@
       {
         "id": "p-adic-method",
         "title": "The p-adic Method",
-        "order": 4,
+        "order": 5,
         "tex": "chapters/p-adic-method/p-adic-method.tex",
         "url": "pdf/chapters/p-adic-method/p-adic-method.pdf",
         "status": {
@@ -167,7 +213,7 @@
       {
         "id": "dynamics-on-berkovich-spaces",
         "title": "Dynamics on Berkovich spaces",
-        "order": 5,
+        "order": 6,
         "tex": "chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.tex",
         "url": "pdf/chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.pdf",
         "status": {

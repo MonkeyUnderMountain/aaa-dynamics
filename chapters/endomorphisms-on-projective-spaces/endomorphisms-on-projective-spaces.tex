@@ -1,0 +1,38 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% !BIB program = biber
+\documentclass[sectionlevel=chapter]{noteformyself}
+% manage-notes:begin watermark
+\usepackage{draftwatermark}
+% manage-notes:end watermark
+
+\input{../../accessories/notation.tex}
+\addbibresource{../../refs.bib}
+\newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
+
+\title{Endomorphisms on projective spaces (draft)}
+\author{Tianle Yang}
+\date{\today}
+\authorpage{\href{https://www.tianleyang.com}{My Homepage}}
+
+\setCJKfamilyfont{lxgwwenkai}{LXGW WenKai}
+\coversentence{\CJKfamily{lxgwwenkai}阿巴阿巴!}
+\coverimage{}
+\covertitlefont{TeX Gyre Termes}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    % manage-notes:begin sections
+    \section{Moduli of dynamics on projective spaces (draft)}
+    \input{moduli-of-dynamics-on-projective-spaces/text.tex}
+    \section{Dynamical uniform boundedness (draft)}
+    \input{dynamical-uniform-boundedness/text.tex}
+    % manage-notes:end sections
+
+    \printbibliography[heading=bibintoc, title={References}]
+
+\end{document}
