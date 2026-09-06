@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 3,
+  "build": {
+    "engine": "xelatex"
+  },
+  "book": {
+    "id": "aaa-dynamics",
+    "title": "Algebraic Dynamics",
+    "tex": "aaa-dynamics.tex",
+    "url": "pdf/aaa-dynamics.pdf",
+    "status": {
+      "published": 0,
+      "finished": 0
+    },
+    "chapters": [
+      {
+        "id": "the-first-introduction",
+        "title": "The first introduction",
+        "order": 1,
+        "tex": "chapters/the-first-introduction/the-first-introduction.tex",
+        "url": "pdf/chapters/the-first-introduction/the-first-introduction.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "some-conjectures",
+            "title": "Some conjectures in algebraic dynamics",
+            "order": 1,
+            "tex": "chapters/the-first-introduction/some-conjectures/some-conjectures.tex",
+            "url": "pdf/chapters/the-first-introduction/some-conjectures/some-conjectures.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "examples-of-dynamics",
+            "title": "Examples of dynamics",
+            "order": 2,
+            "tex": "chapters/the-first-introduction/examples-of-dynamics/examples-of-dynamics.tex",
+            "url": "pdf/chapters/the-first-introduction/examples-of-dynamics/examples-of-dynamics.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "examples-of-dynamics",
+        "title": "Examples of dynamics",
+        "order": 2,
+        "tex": "chapters/examples-of-dynamics/examples-of-dynamics.tex",
+        "url": "pdf/chapters/examples-of-dynamics/examples-of-dynamics.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "on-ruled-surfaces",
+            "title": "Examples of dynamic systems on ruled surfaces",
+            "order": 1,
+            "tex": "chapters/examples-of-dynamics/on-ruled-surfaces/on-ruled-surfaces.tex",
+            "url": "pdf/chapters/examples-of-dynamics/on-ruled-surfaces/on-ruled-surfaces.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "on-abelian-varieties",
+            "title": "Examples of dynamics on abelian varieties",
+            "order": 2,
+            "tex": "chapters/examples-of-dynamics/on-abelian-varieties/on-abelian-varieties.tex",
+            "url": "pdf/chapters/examples-of-dynamics/on-abelian-varieties/on-abelian-varieties.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "on-curves",
+            "title": "On curves",
+            "order": 3,
+            "tex": "chapters/examples-of-dynamics/on-curves/on-curves.tex",
+            "url": "pdf/chapters/examples-of-dynamics/on-curves/on-curves.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "dynamics-on-neron-severi-groups",
+        "title": "Dynamics on Néron-Severi groups",
+        "order": 3,
+        "tex": "chapters/dynamics-on-neron-severi-groups/dynamics-on-neron-severi-groups.tex",
+        "url": "pdf/chapters/dynamics-on-neron-severi-groups/dynamics-on-neron-severi-groups.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "actions-of-jordan-blocks",
+            "title": "Actions of Jordan blocks",
+            "order": 1,
+            "tex": "chapters/dynamics-on-neron-severi-groups/actions-of-jordan-blocks/actions-of-jordan-blocks.tex",
+            "url": "pdf/chapters/dynamics-on-neron-severi-groups/actions-of-jordan-blocks/actions-of-jordan-blocks.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "p-adic-method",
+        "title": "The p-adic Method",
+        "order": 4,
+        "tex": "chapters/p-adic-method/p-adic-method.tex",
+        "url": "pdf/chapters/p-adic-method/p-adic-method.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "adelic-topology",
+            "title": "Adelic Topology",
+            "order": 1,
+            "tex": "chapters/p-adic-method/adelic-topology/adelic-topology.tex",
+            "url": "pdf/chapters/p-adic-method/adelic-topology/adelic-topology.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "interpolation",
+            "title": "Interpolation",
+            "order": 2,
+            "tex": "chapters/p-adic-method/interpolation/interpolation.tex",
+            "url": "pdf/chapters/p-adic-method/interpolation/interpolation.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
+            "id": "applications",
+            "title": "Applications",
+            "order": 3,
+            "tex": "chapters/p-adic-method/applications/applications.tex",
+            "url": "pdf/chapters/p-adic-method/applications/applications.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "dynamics-on-berkovich-spaces",
+        "title": "Dynamics on Berkovich spaces",
+        "order": 5,
+        "tex": "chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.tex",
+        "url": "pdf/chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces",
+            "title": "A theorem for attractor of endomorphism on k-affinoid spaces",
+            "order": 1,
+            "tex": "chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces.tex",
+            "url": "pdf/chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

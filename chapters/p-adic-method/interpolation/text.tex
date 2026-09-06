@@ -1,0 +1,133 @@
+% !TeX root = interpolation.tex
+    The main reference of this section is \cite{Amerik11nonpreperiodic,BGT10DMLetale,Poonen14interpolation,Xie25ZDOsurfaces}.
+
+    % Let \(\kk\) be a finitely generated field over \(\bbQ\) and \(\kkk\) be its algebraic closure.
+    % Let \(X\) be a variety over \(\kk\) and \(f: X \ratmap X\) a dominant rational self-map defined over \(\kk\).
+    % We want to show that after iteration, we can interpolate the iterates of \(f\) on an analytic open subset of \(X(\bbC_p)\) for some prime \(p\).
+
+\subsection{Interpolation of analytic maps}
+
+    In this subsection, we find the interpolation of analytic maps on an analytic disk.
+    Fix a complete non-archimedean field \(\kk\) of characteristic \(0\) with \(|p|_{\kk} = 1/p\) for some prime \(p\).
+    Set \(r_p = p^{-1/(p-1)}\).
+    We use the method of difference operators given in \cite{Poonen14interpolation}.
+
+    Let \(E = E(0,1) = \{x \in \kk^d \mid \|x\| \leq 1\}\) be the closed unit ball in \(\kk^d\) and \(\Phi: E \to E\) be an analytic map, i.e., \(\Phi \in \kk^\circ\{ \underline{X} \}^d\).
+    Here the norm on \(\kk^d\) or \(\kk^\circ\{ \underline{X} \}^d\) is the supremum norm, i.e., \(|x| = \max_{1 \leq i \leq d} |x_i|\).
+    For every analytic map \(h\) from \(E\) to \(E\), we define
+    \[ \Delta(h) := h \circ \Phi - h, \quad \Delta^n(h) := \Delta(\Delta^{n-1}(h)) \text{ for } n \geq 1, \]
+    and \(\Delta^0(h) = h\).
+    Note that \(\Delta^n(h)\) is still an analytic map from \(E\) to \(E\) by the strong triangle inequality.
+
+    \begin{lemma}\label{lem:difference_operators_and_binomial_theorem}
+        We have the following binomial theorem:
+        \[ \sum_{m=0}^n \binom{n}{m} \Delta^m(\id_E) = \Phi^n. \]
+    \end{lemma}
+    \begin{proof}
+        By induction, we have
+        \begin{align*}
+            \Delta^m(\id_E) &= \Delta\left( \sum_{k=0}^{m-1} \binom{m-1}{k} (-1)^{m-1-k} \Phi^k \right) \\
+                &= \sum_{k=0}^{m-1} \binom{m-1}{k} (-1)^{m-1-k} \Phi^{k+1} - \sum_{k=0}^{m-1} \binom{m-1}{k} (-1)^{m-1-k} \Phi^k \\
+                &= \sum_{k=0}^{m} \left( \binom{m-1}{k-1} (-1)^{m-k} - \binom{m-1}{k} (-1)^{m-1-k} \right) \Phi^k \\
+                &= \sum_{k=0}^{m} \binom{m}{k} (-1)^{m-k} \Phi^k.
+        \end{align*}
+        It follows that
+        \begin{align*}
+            \sum_{m=0}^n \binom{n}{m} \Delta^m(\id_E) &= \sum_{m=0}^n \sum_{k=0}^m \binom{n}{m} \binom{m}{k} (-1)^{m-k} \Phi^k \\
+                &= \sum_{k=0}^n\sum_{m=k}^n \binom{n}{k} \binom{n-k}{m-k} (-1)^{m-k} \Phi^k  \\
+                &= \sum_{k=0}^n \binom{n}{k} \Phi^k  \sum_{l=0}^{n-k} \binom{n-k}{l} (-1)^{l} \\
+                &= \binom{n}{n} \Phi^n + \sum_{k=0}^{n-1} \binom{n}{k} \Phi^k \cdot (1-1)^{n-k} \\
+                &= \Phi^n.
+        \end{align*}
+        We finish the proof.
+    \end{proof}
+
+    \begin{lemma}\label{lem:norm_of_difference_operators_of_Phi}
+        Suppose that \(\Phi = (\Phi_1,\cdots,\Phi_d)\in \kk^\circ\{ \underline{X} \}^d\) satisfies \(\|\Phi - \id_E\| \leq r\).
+        Then
+        \[ \|\Delta^n(\id_E)\| \leq r^n \]
+        % \Yang{To be added.}
+    \end{lemma}
+    \begin{proof}
+        By \Yang{ref}, we have
+        \[ \|\Delta(h)\| = \|h \circ \Phi - h\| \leq \|h\| \cdot \|\Phi - \id_E\| \leq r \|h\|. \]
+        Hence by induction, the result follows.
+        % \Yang{To be added.}
+    \end{proof}
+
+    \begin{theorem}[{ref.\cite[Theorem 1]{Poonen14interpolation},\ cf.\cite[Theorem 3.3]{BGT10DMLetale}}]\label{prop:Poonen14_p-adic_interpolation_of_iterates}
+        Suppose that \(\Phi = (\Phi_1,\cdots,\Phi_d)\in \kk^\circ\{ \underline{X} \}^d\) satisfies \(r \coloneqq \|\Phi - \id_E\| < r_p\).
+        Then there exists a unique function \(F \in \kk\{ \underline{X}, T/s \}^d\), such that for each \(n \in \bbZ_{\geq 0}\) and each \(x \in E\),
+        \[F(x, n) = \Phi^n(x).\]
+        Here \(s\) is any real number with \(1 < s < r_p/r\).
+    \end{theorem}
+    \begin{proof}
+        Consider the formal series
+        \[ F(\underline{X}, T) \coloneqq \sum_{n=0}^\infty \binom{T}{n} \Delta^n(\id_E)(\underline{X}). \]
+        Recall the Newton's binomial function
+        \[ \binom{T}{n} \coloneqq \frac{T(T-1)\cdots(T-n+1)}{n!} \in \kk[T]. \]
+        Since \(\binom{T}{n}\) is a polynomial in \(T\) and \(\Delta^n(\id_E)(\underline{X}) \in \kk^\circ\{\underline{X}\}^d\),
+        we have \(f_n = \binom{T}{n} \Delta^n(\id_E)(\underline{X}) \in \kk\{\underline{X}, T\}^d\).
+        Note that for each \(n \in \bbZ_{\geq 0}\), then \(|n!|_{\kk} \geq r_p^n\).
+        Hence we have
+        \[ \left\|\binom{T}{n}\right\| \leq s^n r_p^{-n} \]
+        since \(s > 1\).
+        By \cref{lem:norm_of_difference_operators_of_Phi}, we have
+        \[ \|f_n\| \leq \left\| \binom{T}{n} \right\| \cdot \|\Delta^n(\id_E)\| \leq s^n r_p^{-n} r^n = (s r / r_p)^n. \]
+        Since \(s r / r_p < 1\), the series \(F(\underline{X}, T) = \sum_{n=0}^\infty f_n\) converges in \(\kk\{\underline{X}, T/s\}^d\).
+        By \cref{lem:difference_operators_and_binomial_theorem}, we have \(F(x, n) = \Phi^n(x)\) for each \(n \in \bbZ_{\geq 0}\) and each \(x \in E\).
+        The uniqueness of \(F\) follows from \Yang{ref: I want to take a fraction field of \(\kk\{\underline{X}\}\) and then reduced to the case \(\KK\{T/s\}\).}.
+    \end{proof}
+
+    \Yang{If \(f\) is invertible, can we see that \(g\) is unique?}
+    \Yang{It seems right.}
+
+    \begin{example}
+        Let \(\kk = \bbQ_p\) with \(p \geq 3\), and let \(\Phi \colon E \to E\) be the analytic map defined by \(\Phi(x) = px^2+x\).
+        Then we have \(\|\Phi - \id_E\| = \|pT^2\| = 1/p < r_p\).
+        \Yang{To be checked.}
+    \end{example}
+
+
+\subsection{Interpolation on an analytic open subset of morphisms}
+% \subsection{Pick integral models}
+
+    Let \(f: X \ratmap X\) be a dominant rational self-map of a projective variety of dimension \(d\) defined over a finitely generated field \(\kk\) over \(\bbQ\).
+    We try to find some analytic local interpolation of the iterates of \(f\) on \(X(\bbC_p)\) for some prime \(p\).
+
+    \begin{lemma}\label{lem:existence_of_good_model_for_smooth_things}
+        There exists a subring \(R \subseteq \kk\) of finite type over \(\bbZ\),
+        a projective scheme \(\calX\) over \(\Spec R\) with generic fiber \(X\),
+        and a rational self-map \(\calf: \calX \ratmap \calX\) over \(\Spec R\) with generic fiber \(f\)
+        such that
+        \begin{enumerate}
+            \item for every prime ideal \(\frakp\) of \(R\), the special fiber \(\calX_{\frakp}\) is geometrically integral and of the same dimension as \(X\);
+            \item the union of non-smooth locus of \(\calX\) and indeterminacy locus, non-\'etale locus of \(\calf\) does not contain any entire special fiber \(\calX_{\frakp}\);
+        \end{enumerate}
+
+        Moreover, if \(X\) is smooth (resp.\ \(f\) is a morphism, resp.\ \(f\) is \'etale), then we can further require that \(\calX\) is smooth over \(\Spec R\) (resp.\ \(\calf\) is a morphism, resp.\ \(\calf\) is \'etale over \(\Spec R\)).
+    \end{lemma}
+
+
+    \Yang{We can embedd \(R\) into \(\bbC_p\) for some \(p\).}
+
+    % The main reference of this section is \cite[Section 3.2]{Xie25ZDOsurfaces}.
+    % We first state the main theorem of this section.
+
+    \begin{theorem}[{ref.\cite[Proposition 3.24]{Xie25ZDOsurfaces}}]\label{thm:Xie25_DML_for_adelic_general_points}
+        % Let \(\kk\) be a finitely generated field over \(\bbQ\), \(X\) a projective variety defined over \(\kk\), and \(f \colon X \ratmap X\) a dominant rational self-map defined over \(\kk\).
+
+        There exists an iteration \(g = f^m\) of \(f\), an embedding \(\kk \hookrightarrow \bbC_p\) for some prime \(p\geq 3\),
+        an analytic open subset \(U\cong (\bbC_p^{\circ})^d \subseteq X(\bbC_p)\) and an analytic map \(\Phi: \bbC_p^\circ \times U \to U\) such that
+        \begin{enumerate}
+            \item \(g\) is well-defined on \(U\), \(U\) is invariant under \(g\) and \(\|g|_U - \id_U\| < 1/p\);
+            \item \(\Phi(n, x) = g^n(x)\) for each \(n \in \bbZ_{\geq 0}\) and each \(x \in U\);
+        \end{enumerate}
+    \end{theorem}
+
+
+    \begin{example}\label{eg:interpolation_for_Jordan_block_of_elliptic_curves}
+        Let \(X = E \times E\) with \(E\) an elliptic curve without complex multiplication defined over a number field \(\kk\),
+        and let \(f \colon X \to X\) be the endomorphism defined by \((a,b) \mapsto (a + b, b)\).
+        \Yang{To be continued.}
+    \end{example}

@@ -1,0 +1,89 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% !BIB program = biber
+\documentclass[sectionlevel=book]{noteformyself}
+% manage-notes:begin watermark
+\usepackage{draftwatermark}
+% manage-notes:end watermark
+
+\usepackage{makecell}                     % 表格宏包
+
+
+\input{accessories/notation.tex}                 % 加载符号定义文件
+\addbibresource{refs.bib}             % 添加参考文献文件
+\newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
+
+
+\title{Algebraic Dynamics (draft)}
+\author{Tianle Yang}
+\date{\today}
+\authorpage{\href{https://www.tianleyang.com}{https://www.tianleyang.com}}
+
+% available on the mode "\sectionlevel=chapter" or "\sectionlevel=book".
+\setCJKfamilyfont{lxgwwenkai}{LXGW WenKai} % 定义霞鹜文楷，若未安装，请去掉相关代码编译或使用其他字体
+\coversentence{\CJKfamily{lxgwwenkai}“”}
+\coverimage{} % 封面图片
+\covertitlefont{TeX Gyre Termes} % 封面标题字体, 若未安装，请去掉相关代码编译或使用其他字体
+% \coverlinecolor{red} % 封面线条颜色
+% \covertextcolor{green} % 封面文字颜色
+
+% available on the mode "\sectionlevel=book".
+\authoremail{\href{mailto:loveandjustice@88.com}{loveandjustice@88.com}}
+\texsource{\href{https://github.com/MonkeyUnderMountain/aaa-dynamics}{GitHub Repository}}
+\version{0.1.0}
+
+
+\begin{document}
+
+   \maketitle
+
+   \frontmatter
+
+%    \chapter*{Preface}
+%       \addcontentsline{toc}{chapter}{Preface}
+
+%       This document provides an introduction to algebraic dynamics,
+%       focusing on the study of dynamical systems defined by algebraic maps on algebraic varieties.
+%       The main interesting objects are \((X,f)\),
+%       where \(X\) is an algebraic variety over a finitely generated field \(\kk\) of characteristic zero
+%       and \(f: X \to X\) is a dominant rational self-map defined over \(\kk\).
+
+   \tableofcontents % 生成目录
+
+   \mainmatter
+
+    % manage-notes:begin chapters
+    \chapter{The first introduction (draft)}
+        \section{Some conjectures in algebraic dynamics (draft)}
+        \input{chapters/the-first-introduction/some-conjectures/text.tex}
+        \section{Examples of dynamics (draft)}
+        \input{chapters/the-first-introduction/examples-of-dynamics/text.tex}
+
+    \chapter{Examples of dynamics (draft)}
+        \section{Examples of dynamic systems on ruled surfaces (draft)}
+        \input{chapters/examples-of-dynamics/on-ruled-surfaces/text.tex}
+        \section{Examples of dynamics on abelian varieties (draft)}
+        \input{chapters/examples-of-dynamics/on-abelian-varieties/text.tex}
+        \section{On curves (draft)}
+        \input{chapters/examples-of-dynamics/on-curves/text.tex}
+
+    \chapter{Dynamics on Néron-Severi groups (draft)}
+        \section{Actions of Jordan blocks (draft)}
+        \input{chapters/dynamics-on-neron-severi-groups/actions-of-jordan-blocks/text.tex}
+
+    \chapter{The p-adic Method (draft)}
+        \section{Adelic Topology (draft)}
+        \input{chapters/p-adic-method/adelic-topology/text.tex}
+        \section{Interpolation (draft)}
+        \input{chapters/p-adic-method/interpolation/text.tex}
+        \section{Applications (draft)}
+        \input{chapters/p-adic-method/applications/text.tex}
+
+    \chapter{Dynamics on Berkovich spaces (draft)}
+        \section{A theorem for attractor of endomorphism on k-affinoid spaces (draft)}
+        \input{chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/text.tex}
+    % manage-notes:end chapters
+
+   \printbibliography[heading=bibintoc, title={References}] % 打印参考文献
+
+\end{document}

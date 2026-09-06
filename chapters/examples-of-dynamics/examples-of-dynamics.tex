@@ -1,0 +1,49 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+% !BIB program = biber
+\documentclass[sectionlevel=chapter]{noteformyself}
+% manage-notes:begin watermark
+\usepackage{draftwatermark}
+% manage-notes:end watermark
+
+\usepackage{makecell}
+
+
+\input{../../accessories/notation.tex}
+\addbibresource{../../refs.bib}
+\newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
+
+
+\title{Examples of dynamics (draft)}
+\author{Tianle Yang}
+\date{\today}
+\authorpage{\href{https://www.tianleyang.com}{My Homepage}}
+
+% available on the mode "\sectionlevel=chapter" or "\sectionlevel=book".
+\setCJKfamilyfont{lxgwwenkai}{LXGW WenKai} % 定义霞鹜文楷，若未安装，请去掉相关代码编译或使用其他字体
+\coversentence{\CJKfamily{lxgwwenkai}阿巴阿巴!}
+\coverimage{} % 封面图片
+\covertitlefont{TeX Gyre Termes} % 封面标题字体, 若未安装，请去掉相关代码编译或使用其他字体
+% \coverlinecolor{red} % 封面线条颜色
+% \covertextcolor{green} % 封面文字颜色
+
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    % manage-notes:begin sections
+    \section{Examples of dynamic systems on ruled surfaces (draft)}
+    \input{on-ruled-surfaces/text.tex}
+    \section{Examples of dynamics on abelian varieties (draft)}
+    \input{on-abelian-varieties/text.tex}
+    \section{On curves (draft)}
+    \input{on-curves/text.tex}
+    % manage-notes:end sections
+
+
+    \printbibliography[heading=bibintoc, title={References}]
+
+\end{document}
