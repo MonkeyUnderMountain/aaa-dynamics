@@ -152,9 +152,20 @@
             }
           },
           {
+            "id": "the-bifurcation-theory",
+            "title": "The bifurcation theory",
+            "order": 2,
+            "tex": "chapters/endomorphisms-on-projective-spaces/the-bifurcation-theory/the-bifurcation-theory.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/the-bifurcation-theory/the-bifurcation-theory.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            }
+          },
+          {
             "id": "dynamical-uniform-boundedness",
             "title": "Dynamical uniform boundedness",
-            "order": 2,
+            "order": 3,
             "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.tex",
             "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.pdf",
             "status": {
@@ -211,33 +222,9 @@
         ]
       },
       {
-        "id": "the-methodology",
-        "title": "The methodology",
-        "order": 6,
-        "tex": "chapters/the-methodology/the-methodology.tex",
-        "url": "pdf/chapters/the-methodology/the-methodology.pdf",
-        "status": {
-          "published": 0,
-          "finished": 0
-        },
-        "sections": [
-          {
-            "id": "the-bifurcation-theory",
-            "title": "The bifurcation theory",
-            "order": 1,
-            "tex": "chapters/the-methodology/the-bifurcation-theory/the-bifurcation-theory.tex",
-            "url": "pdf/chapters/the-methodology/the-bifurcation-theory/the-bifurcation-theory.pdf",
-            "status": {
-              "published": 0,
-              "finished": 0
-            }
-          }
-        ]
-      },
-      {
         "id": "dynamics-on-berkovich-spaces",
         "title": "Dynamics on Berkovich spaces",
-        "order": 7,
+        "order": 6,
         "tex": "chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.tex",
         "url": "pdf/chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.pdf",
         "status": {

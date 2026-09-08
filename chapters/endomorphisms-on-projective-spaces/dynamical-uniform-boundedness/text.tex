@@ -1,1 +1,64 @@
 % !TeX root = dynamical-uniform-boundedness.tex
+
+
+\subsection{The geometric version and Ji-Xie's work}
+
+
+Let $\kkk$ be an algebraically closed field of characteristic zero.
+
+\begin{conjecture}
+	Let $\KK$ be a function field over $\bbC$ and
+	\Yang{}
+\end{conjecture}
+
+
+\begin{conjecture}
+	For any non-isotrivial one-parameter algebraic family of endomorphisms of $\bbP^1$ over $\bbC$, if $\Gamma_n$ is a sequence of distinct dynatomic curves, then $\gonal(\Gamma_n) \to \infty$.
+\end{conjecture}
+
+An element $f \in \calM_{1,d}(\KK)$ is non-isotrivial means that for any $g \in \calM_{1,d}(\bbC)$, $f \neq g \times_\bbC \KK$.
+
+\begin{theorem}[{\cite[Theorem 3.1]{Levy-2011-SpaceMorphismsProjective}}]
+  There exist $C = C(q)$ such that for any field $\kk$ and $f \in \calPolDyn_{\bbP^1,q}(\kk)$, \Yang{C or any field?}
+	\[ \# \{g \in \PGL_2(\kk) \;|\; g^{-1}fg = f \} \leq C. \]
+\end{theorem}
+
+
+
+\begin{lemma}
+	Assume conjecture for gonality.
+	Then GUBC holds for one-parameter families.
+	More explicitly, for any curve $S \in \calM_{1,d}$ and positive number $D > 0$,
+	there exists a constant $C = C(S,D)$ such that for any $\KK/\bbC$ finitely generated of transcendantal degree one and non-isotrivial element $f \in S(\KK)$,
+	\[ \# \{ x \in \bbP^1(\overline{\KK}) \;|\; x \in \Preper(f), \gonal(\kappa(x)/\bbC) \leq D \}  \leq C. \]
+\end{lemma}
+\begin{proof}
+	Choose a curve $\Lambda \subset \End(\bbP^1,d)$ dominant $S$ under $\End(\bbP^1,d) \to \calM_{d,1}$.
+	And there is a family $f_\Lambda: \bbP^1 \times \Lambda \to \bbP^1 \times \Lambda$.
+  Set $D_1 = \deg (\Lambda \to S)$, $D_2$ be the bound in above theorem, $D_3 = D$ in statements and $D_S = D_1D_2D_3$.
+	By the conjecture of gonality, there are only finite many dynatomic curve $\Gamma_1, \cdots, \Gamma_n$ on the family $F$ with gonality less or equal to $D_S$.
+  Set 
+  \[ C \coloneqq \sum_{i} \deg (\Gamma_i \to \Lambda). \]
+
+  Now take any non-isotrivial $[f] \in S(\KK)$.
+  Let $B$ be a normal curve over $\bbC$ with $\fkk(B) = \rkk([f])$.
+  Since $f$ is non-isotrivial, it induces a dominant rational map $B \ratmap \calM_{1,d}$, and $[f] \in S(\KK)$ means that its image lies in $S$. \Yang
+  After thrinking $B$, we get $B \to S$.
+  Consider 
+  $T$ is a component of $ B \times_S \Lambda$.
+  The family on $B$ and on $\Lambda$ pullback to the same family $F_T$ on $T$, and $\deg(T \to B) \leq \deg(\Lambda \to S)$.
+  \Yang{$f_T$ and $F_T$ are conjugate on $T$, such class are controlled by $C_2$.}
+  For any preperiodic point $x_f$ of $f$, pullback to $T$ will get at most $\deg(\Lambda \to S)$ preperiodic points $x_{f_T,i}$.
+  Each such point $x_{f_T,i}$ corresponds to a unique dynatomic curve $\Gamma_{x,i}$.
+  \Yang{need to clearify the logic}
+\end{proof}
+
+
+
+
+
+
+
+
+
+
