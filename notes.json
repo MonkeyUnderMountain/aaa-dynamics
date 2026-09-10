@@ -3,6 +3,11 @@
   "build": {
     "engine": "xelatex"
   },
+  "referenceCatalog": {
+    "file": "external-labels.json",
+    "downloadUrl": "https://www.tianleyang.com/aaa-dynamics/external-labels.json"
+  },
+  "externalReferences": [],
   "book": {
     "id": "aaa-dynamics",
     "title": "Algebraic, Analytic, and Arithmetic Dynamics",
