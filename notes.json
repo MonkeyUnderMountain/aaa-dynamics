@@ -54,6 +54,19 @@
             },
             "label": "sec:the-first-introduction:examples-of-dynamics",
             "tag": "00000"
+          },
+          {
+            "id": "from-view-of-complex-dynamics",
+            "title": "From view of complex dynamics",
+            "order": 3,
+            "tex": "chapters/the-first-introduction/from-view-of-complex-dynamics/from-view-of-complex-dynamics.tex",
+            "url": "pdf/chapters/the-first-introduction/from-view-of-complex-dynamics/from-view-of-complex-dynamics.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:the-first-introduction:from-view-of-complex-dynamics",
+            "tag": "00000"
           }
         ],
         "label": "chap:the-first-introduction",
@@ -114,9 +127,37 @@
         "tag": "000"
       },
       {
+        "id": "the-decomposition-and-classification",
+        "title": "The decomposition and classification",
+        "order": 3,
+        "tex": "chapters/the-decomposition-and-classification/the-decomposition-and-classification.tex",
+        "url": "pdf/chapters/the-decomposition-and-classification/the-decomposition-and-classification.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "the-equivariant-mmp",
+            "title": "The equivariant MMP",
+            "order": 1,
+            "tex": "chapters/the-decomposition-and-classification/the-equivariant-mmp/the-equivariant-mmp.tex",
+            "url": "pdf/chapters/the-decomposition-and-classification/the-equivariant-mmp/the-equivariant-mmp.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:the-decomposition-and-classification:the-equivariant-mmp",
+            "tag": "00000"
+          }
+        ],
+        "label": "chap:the-decomposition-and-classification",
+        "tag": "000"
+      },
+      {
         "id": "periodic-points-and-orbits",
         "title": "Periodic points and orbits",
-        "order": 3,
+        "order": 4,
         "tex": "chapters/periodic-points-and-orbits/periodic-points-and-orbits.tex",
         "url": "pdf/chapters/periodic-points-and-orbits/periodic-points-and-orbits.pdf",
         "status": {
@@ -125,11 +166,11 @@
         },
         "sections": [
           {
-            "id": "density-of-periodic-points-for-cohomologically-hyperbolic-maps",
-            "title": "Density of periodic points for cohomologically hyperbolic maps",
+            "id": "density-of-periodic-points",
+            "title": "Density of periodic points",
             "order": 1,
-            "tex": "chapters/periodic-points-and-orbits/density-of-periodic-points-for-cohomologically-hyperbolic-maps/density-of-periodic-points-for-cohomologically-hyperbolic-maps.tex",
-            "url": "pdf/chapters/periodic-points-and-orbits/density-of-periodic-points-for-cohomologically-hyperbolic-maps/density-of-periodic-points-for-cohomologically-hyperbolic-maps.pdf",
+            "tex": "chapters/periodic-points-and-orbits/density-of-periodic-points/density-of-periodic-points.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/density-of-periodic-points/density-of-periodic-points.pdf",
             "status": {
               "published": 0,
               "finished": 0
@@ -149,6 +190,45 @@
             },
             "label": "sec:periodic-points-and-orbits:arithmetic-degrees-and-kawaguchi-silverman-conjecture",
             "tag": "00000"
+          },
+          {
+            "id": "zariski-dense-orbit-conjecture",
+            "title": "Zariski dense orbit conjecture",
+            "order": 3,
+            "tex": "chapters/periodic-points-and-orbits/zariski-dense-orbit-conjecture/zariski-dense-orbit-conjecture.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/zariski-dense-orbit-conjecture/zariski-dense-orbit-conjecture.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:periodic-points-and-orbits:zariski-dense-orbit-conjecture",
+            "tag": "00000"
+          },
+          {
+            "id": "dynamical-mordell-lang-conjecture",
+            "title": "Dynamical Mordell-Lang conjecture",
+            "order": 4,
+            "tex": "chapters/periodic-points-and-orbits/dynamical-mordell-lang-conjecture/dynamical-mordell-lang-conjecture.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/dynamical-mordell-lang-conjecture/dynamical-mordell-lang-conjecture.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:periodic-points-and-orbits:dynamical-mordell-lang-conjecture",
+            "tag": "00000"
+          },
+          {
+            "id": "equidistribution",
+            "title": "Equidistribution",
+            "order": 5,
+            "tex": "chapters/periodic-points-and-orbits/equidistribution/equidistribution.tex",
+            "url": "pdf/chapters/periodic-points-and-orbits/equidistribution/equidistribution.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:periodic-points-and-orbits:equidistribution",
+            "tag": "00000"
           }
         ],
         "label": "chap:periodic-points-and-orbits",
@@ -157,7 +237,7 @@
       {
         "id": "endomorphisms-on-projective-spaces",
         "title": "Endomorphisms on projective spaces",
-        "order": 4,
+        "order": 5,
         "tex": "chapters/endomorphisms-on-projective-spaces/endomorphisms-on-projective-spaces.tex",
         "url": "pdf/chapters/endomorphisms-on-projective-spaces/endomorphisms-on-projective-spaces.pdf",
         "status": {
@@ -192,22 +272,9 @@
             "tag": "00000"
           },
           {
-            "id": "dynamical-uniform-boundedness",
-            "title": "Dynamical uniform boundedness",
-            "order": 3,
-            "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.tex",
-            "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.pdf",
-            "status": {
-              "published": 0,
-              "finished": 0
-            },
-            "label": "sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness",
-            "tag": "00000"
-          },
-          {
             "id": "dynamical-andre-oort-conjecture",
             "title": "Dynamical Andre-Oort conjecture",
-            "order": 4,
+            "order": 3,
             "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-andre-oort-conjecture/dynamical-andre-oort-conjecture.tex",
             "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-andre-oort-conjecture/dynamical-andre-oort-conjecture.pdf",
             "status": {
@@ -220,7 +287,7 @@
           {
             "id": "rigidity-of-multiplier-and-length-spectrum",
             "title": "Rigidity of multiplier and length spectrum",
-            "order": 5,
+            "order": 4,
             "tex": "chapters/endomorphisms-on-projective-spaces/rigidity-of-multiplier-and-length-spectrum/rigidity-of-multiplier-and-length-spectrum.tex",
             "url": "pdf/chapters/endomorphisms-on-projective-spaces/rigidity-of-multiplier-and-length-spectrum/rigidity-of-multiplier-and-length-spectrum.pdf",
             "status": {
@@ -229,15 +296,69 @@
             },
             "label": "sec:endomorphisms-on-projective-spaces:rigidity-of-multiplier-and-length-spectrum",
             "tag": "00000"
+          },
+          {
+            "id": "dynamical-uniform-boundedness",
+            "title": "Dynamical uniform boundedness",
+            "order": 5,
+            "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/dynamical-uniform-boundedness.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness",
+            "tag": "00000"
+          },
+          {
+            "id": "singularities-of-ramification-divisors",
+            "title": "Singularities of ramification divisors",
+            "order": 6,
+            "tex": "chapters/endomorphisms-on-projective-spaces/singularities-of-ramification-divisors/singularities-of-ramification-divisors.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/singularities-of-ramification-divisors/singularities-of-ramification-divisors.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:singularities-of-ramification-divisors",
+            "tag": "00000"
           }
         ],
         "label": "chap:endomorphisms-on-projective-spaces",
         "tag": "DPN"
       },
       {
+        "id": "automorphism-and-birational-groups",
+        "title": "Automorphism and birational groups",
+        "order": 6,
+        "tex": "chapters/automorphism-and-birational-groups/automorphism-and-birational-groups.tex",
+        "url": "pdf/chapters/automorphism-and-birational-groups/automorphism-and-birational-groups.pdf",
+        "status": {
+          "published": 0,
+          "finished": 0
+        },
+        "sections": [
+          {
+            "id": "the-gremona-group",
+            "title": "The Gremona group",
+            "order": 1,
+            "tex": "chapters/automorphism-and-birational-groups/the-gremona-group/the-gremona-group.tex",
+            "url": "pdf/chapters/automorphism-and-birational-groups/the-gremona-group/the-gremona-group.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:automorphism-and-birational-groups:the-gremona-group",
+            "tag": "00000"
+          }
+        ],
+        "label": "chap:automorphism-and-birational-groups",
+        "tag": "000"
+      },
+      {
         "id": "p-adic-method",
         "title": "The p-adic Method",
-        "order": 5,
+        "order": 7,
         "tex": "chapters/p-adic-method/p-adic-method.tex",
         "url": "pdf/chapters/p-adic-method/p-adic-method.pdf",
         "status": {
@@ -291,7 +412,7 @@
       {
         "id": "dynamics-on-berkovich-spaces",
         "title": "Dynamics on Berkovich spaces",
-        "order": 6,
+        "order": 8,
         "tex": "chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.tex",
         "url": "pdf/chapters/dynamics-on-berkovich-spaces/dynamics-on-berkovich-spaces.pdf",
         "status": {
@@ -300,11 +421,11 @@
         },
         "sections": [
           {
-            "id": "a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces",
-            "title": "A theorem for attractor of endomorphism on k-affinoid spaces",
+            "id": "a-temporary-section",
+            "title": "a temporary section",
             "order": 1,
-            "tex": "chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces.tex",
-            "url": "pdf/chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces.pdf",
+            "tex": "chapters/dynamics-on-berkovich-spaces/a-temporary-section/a-temporary-section.tex",
+            "url": "pdf/chapters/dynamics-on-berkovich-spaces/a-temporary-section/a-temporary-section.pdf",
             "status": {
               "published": 0,
               "finished": 0

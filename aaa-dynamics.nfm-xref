@@ -1,26 +1,35 @@
 \NoteExternalReference{chap:the-first-introduction}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 1]}{[1][1][]1}{}{}{}}
 \NoteExternalReference{sec:the-first-introduction:some-conjectures}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 1.1]}{[1][1][]1}{}{}{}}
 \NoteExternalReference{sec:the-first-introduction:examples-of-dynamics}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 1.2]}{[1][1][]1}{}{}{}}
+\NoteExternalReference{sec:the-first-introduction:from-view-of-complex-dynamics}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 1.3]}{[4][4][]4}{}{}{}}
 \NoteExternalReference{chap:actions-on-cohomology}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 2]}{[5][5][]5}{}{}{}}
 \NoteExternalReference{sec:actions-on-cohomology:dynamical-lorentzian-packages}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 2.1]}{[5][5][]5}{}{}{}}
 \NoteExternalReference{sec:actions-on-cohomology:dynamical-degrees-and-lynapunov-multipliers}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 2.2]}{[5][5][]5}{}{}{}}
 \NoteExternalReference{sec:actions-on-cohomology:actions-of-jordan-blocks}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 2.3]}{[5][5][]5}{}{}{}}
-\NoteExternalReference{chap:periodic-points-and-orbits}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 3]}{[7][7][]7}{}{}{}}
-\NoteExternalReference{sec:periodic-points-and-orbits:density-of-periodic-points-for-cohomologically-hyperbolic-maps}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 3.1]}{[7][7][]7}{}{}{}}
-\NoteExternalReference{sec:periodic-points-and-orbits:arithmetic-degrees-and-kawaguchi-silverman-conjecture}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 3.2]}{[7][7][]7}{}{}{}}
-\NoteExternalReference{chap:endomorphisms-on-projective-spaces}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 4]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{sec:endomorphisms-on-projective-spaces:moduli-of-dynamics-on-projective-spaces}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.1]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{def:test}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 4, Section 1, Definition 2]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{eg:moduli-of-degree-two-maps-on-p1}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 4, Section 1, Example 3]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{eg:eg:moduli}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 4, Section 1, Example 4]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{sec:endomorphisms-on-projective-spaces:the-bifurcation-theory}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.2]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.3]}{[9][9][]9}{}{}{}}
-\NoteExternalReference{sec:endomorphisms-on-projective-spaces:dynamical-andre-oort-conjecture}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.4]}{[10][10][]10}{}{}{}}
-\NoteExternalReference{sec:endomorphisms-on-projective-spaces:rigidity-of-multiplier-and-length-spectrum}{{[nfmdraft][5][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.5]}{[10][10][]10}{}{}{}}
-\NoteExternalReference{chap:p-adic-method}{{[nfmdraft][5][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 5]}{[11][11][]11}{}{}{}}
-\NoteExternalReference{sec:p-adic-method:adelic-topology}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.1]}{[11][11][]11}{}{}{}}
-\NoteExternalReference{sec:p-adic-method:interpolation}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.2]}{[14][14][]14}{}{}{}}
-\NoteExternalReference{sec:p-adic-method:applications}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.3]}{[17][17][]17}{}{}{}}
-\NoteExternalReference{chap:dynamics-on-berkovich-spaces}{{[nfmdraft][6][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 6]}{[19][19][]19}{}{}{}}
-\NoteExternalReference{sec:dynamics-on-berkovich-spaces:a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 6.1]}{[19][19][]19}{}{}{}}
-\NoteExternalReference{thm:attractor-is-Zariski-closed-and-endomorphism-descends}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 6, Section 1, Theorem 4]}{[19][19][]19}{}{}{}}
+\NoteExternalReference{chap:the-decomposition-and-classification}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 3]}{[7][7][]7}{}{}{}}
+\NoteExternalReference{sec:the-decomposition-and-classification:the-equivariant-mmp}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 3.1]}{[7][7][]7}{}{}{}}
+\NoteExternalReference{chap:periodic-points-and-orbits}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 4]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{sec:periodic-points-and-orbits:density-of-periodic-points-for-cohomologically-hyperbolic-maps}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.1]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{sec:periodic-points-and-orbits:arithmetic-degrees-and-kawaguchi-silverman-conjecture}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.2]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{sec:periodic-points-and-orbits:zariski-dense-orbit-conjecture}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.3]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{sec:periodic-points-and-orbits:dynamical-mordell-lang-conjecture}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.4]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{sec:periodic-points-and-orbits:equidistribution}{{[nfmdraft][5][][Algebraic, Analytic, and Arithmetic Dynamics, Section 4.5]}{[9][9][]9}{}{}{}}
+\NoteExternalReference{chap:endomorphisms-on-projective-spaces}{{[nfmdraft][5][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 5]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:moduli-of-dynamics-on-projective-spaces}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.1]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{def:test}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 5, Section 1, Definition 2]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{eg:moduli-of-degree-two-maps-on-p1}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 5, Section 1, Example 3]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{eg:eg:moduli}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 5, Section 1, Example 4]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:the-bifurcation-theory}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.2]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:dynamical-andre-oort-conjecture}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.3]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:rigidity-of-multiplier-and-length-spectrum}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.4]}{[11][11][]11}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness}{{[nfmdraft][5][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.5]}{[12][12][]12}{}{}{}}
+\NoteExternalReference{sec:endomorphisms-on-projective-spaces:singularities-of-ramification-divisors}{{[nfmdraft][6][][Algebraic, Analytic, and Arithmetic Dynamics, Section 5.6]}{[12][12][]12}{}{}{}}
+\NoteExternalReference{chap:automorphism-and-birational-groups}{{[nfmdraft][6][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 6]}{[13][13][]13}{}{}{}}
+\NoteExternalReference{sec:automorphism-and-birational-groups:the-gremona-group}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 6.1]}{[13][13][]13}{}{}{}}
+\NoteExternalReference{chap:p-adic-method}{{[nfmdraft][7][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 7]}{[15][15][]15}{}{}{}}
+\NoteExternalReference{sec:p-adic-method:adelic-topology}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 7.1]}{[15][15][]15}{}{}{}}
+\NoteExternalReference{sec:p-adic-method:interpolation}{{[nfmdraft][2][][Algebraic, Analytic, and Arithmetic Dynamics, Section 7.2]}{[18][18][]18}{}{}{}}
+\NoteExternalReference{sec:p-adic-method:applications}{{[nfmdraft][3][][Algebraic, Analytic, and Arithmetic Dynamics, Section 7.3]}{[21][21][]21}{}{}{}}
+\NoteExternalReference{chap:dynamics-on-berkovich-spaces}{{[nfmdraft][8][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 8]}{[23][23][]23}{}{}{}}
+\NoteExternalReference{sec:dynamics-on-berkovich-spaces:a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces}{{[nfmdraft][1][][Algebraic, Analytic, and Arithmetic Dynamics, Section 8.1]}{[23][23][]23}{}{}{}}
+\NoteExternalReference{thm:attractor-is-Zariski-closed-and-endomorphism-descends}{{[nfmdraft][4][][Algebraic, Analytic, and Arithmetic Dynamics, Chapter 8, Section 1, Theorem 4]}{[23][23][]23}{}{}{}}
