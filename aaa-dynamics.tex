@@ -1,10 +1,14 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
 % !BIB program = biber
-\documentclass[sectionlevel=book]{noteformyself}
-% manage-notes:begin watermark
-\usepackage{draftwatermark}
-% manage-notes:end watermark
+\documentclass[sectionlevel=book,status=draft]{noteformyself}
+% manage-notes:begin setup
+\notesetup{
+  book={Algebraic, Analytic, and Arithmetic Dynamics},
+  book-tag=D,
+  status=draft
+}
+% manage-notes:end setup
 
 \usepackage{makecell}                     % 表格宏包
 
@@ -14,7 +18,7 @@
 \newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
 
 
-\title{Algebraic, Analytic, and Arithmetic Dynamics (draft)}
+\title{Algebraic, Analytic, and Arithmetic Dynamics}
 \author{Tianle Yang}
 \date{\today}
 \authorpage{\href{https://www.tianleyang.com}{https://www.tianleyang.com}}
@@ -23,7 +27,7 @@
 \setCJKfamilyfont{lxgwwenkai}{LXGW WenKai} % 定义霞鹜文楷，若未安装，请去掉相关代码编译或使用其他字体
 \coversentence{\CJKfamily{lxgwwenkai}“”}
 \coverimage{} % 封面图片
-\covertitlefont{TeX Gyre Termes} % 封面标题字体, 若未安装，请去掉相关代码编译或使用其他字体
+% \covertitlefont{TeX Gyre Termes} % 封面标题字体, 若未安装，请去掉相关代码编译或使用其他字体
 % \coverlinecolor{red} % 封面线条颜色
 % \covertextcolor{green} % 封面文字颜色
 
@@ -53,44 +57,136 @@
    \mainmatter
 
     % manage-notes:begin chapters
-    \chapter{The first introduction (draft)}
-        \section{Some conjectures in algebraic dynamics (draft)}
+    \chapter[
+      status=draft,
+      tag=000,
+      label=\labelNFM{chap:the-first-introduction}
+    ]{The first introduction}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:the-first-introduction:some-conjectures}
+        ]{Some conjectures in algebraic dynamics}
         \input{chapters/the-first-introduction/some-conjectures/text.tex}
-        \section{Examples of dynamics (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:the-first-introduction:examples-of-dynamics}
+        ]{Examples of dynamics}
         \input{chapters/the-first-introduction/examples-of-dynamics/text.tex}
 
-    \chapter{Actions on cohomology (draft)}
-        \section{Dynamical Lorentzian packages (draft)}
+    \chapter[
+      status=draft,
+      tag=000,
+      label=\labelNFM{chap:actions-on-cohomology}
+    ]{Actions on cohomology}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:actions-on-cohomology:dynamical-lorentzian-packages}
+        ]{Dynamical Lorentzian packages}
         \input{chapters/actions-on-cohomology/dynamical-lorentzian-packages/text.tex}
-        \section{Dynamical degrees and Lynapunov multipliers (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:actions-on-cohomology:dynamical-degrees-and-lynapunov-multipliers}
+        ]{Dynamical degrees and Lynapunov multipliers}
         \input{chapters/actions-on-cohomology/dynamical-degrees-and-lynapunov-multipliers/text.tex}
-        \section{Actions of Jordan blocks (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:actions-on-cohomology:actions-of-jordan-blocks}
+        ]{Actions of Jordan blocks}
         \input{chapters/actions-on-cohomology/actions-of-jordan-blocks/text.tex}
 
-    \chapter{Periodic points and orbits (draft)}
-        \section{Density of periodic points for cohomologically hyperbolic maps (draft)}
+    \chapter[
+      status=draft,
+      tag=000,
+      label=\labelNFM{chap:periodic-points-and-orbits}
+    ]{Periodic points and orbits}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:periodic-points-and-orbits:density-of-periodic-points-for-cohomologically-hyperbolic-maps}
+        ]{Density of periodic points for cohomologically hyperbolic maps}
         \input{chapters/periodic-points-and-orbits/density-of-periodic-points-for-cohomologically-hyperbolic-maps/text.tex}
-        \section{Arithmetic degrees and Kawaguchi-Silverman conjecture (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:periodic-points-and-orbits:arithmetic-degrees-and-kawaguchi-silverman-conjecture}
+        ]{Arithmetic degrees and Kawaguchi-Silverman conjecture}
         \input{chapters/periodic-points-and-orbits/arithmetic-degrees-and-kawaguchi-silverman-conjecture/text.tex}
 
-    \chapter{Endomorphisms on projective spaces (draft)}
-        \section{Moduli of dynamics on projective spaces (draft)}
+    \chapter[
+      status=draft,
+      tag=DPN,
+      label=\labelNFM{chap:endomorphisms-on-projective-spaces}
+    ]{Endomorphisms on projective spaces}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:endomorphisms-on-projective-spaces:moduli-of-dynamics-on-projective-spaces}
+        ]{Moduli of dynamics on projective spaces}
         \input{chapters/endomorphisms-on-projective-spaces/moduli-of-dynamics-on-projective-spaces/text.tex}
-        \section{The bifurcation theory (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:endomorphisms-on-projective-spaces:the-bifurcation-theory}
+        ]{The bifurcation theory}
         \input{chapters/endomorphisms-on-projective-spaces/the-bifurcation-theory/text.tex}
-        \section{Dynamical uniform boundedness (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness}
+        ]{Dynamical uniform boundedness}
         \input{chapters/endomorphisms-on-projective-spaces/dynamical-uniform-boundedness/text.tex}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:endomorphisms-on-projective-spaces:dynamical-andre-oort-conjecture}
+        ]{Dynamical Andre-Oort conjecture}
+        \input{chapters/endomorphisms-on-projective-spaces/dynamical-andre-oort-conjecture/text.tex}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:endomorphisms-on-projective-spaces:rigidity-of-multiplier-and-length-spectrum}
+        ]{Rigidity of multiplier and length spectrum}
+        \input{chapters/endomorphisms-on-projective-spaces/rigidity-of-multiplier-and-length-spectrum/text.tex}
 
-    \chapter{The p-adic Method (draft)}
-        \section{Adelic Topology (draft)}
+    \chapter[
+      status=draft,
+      tag=000,
+      label=\labelNFM{chap:p-adic-method}
+    ]{The p-adic Method}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:p-adic-method:adelic-topology}
+        ]{Adelic Topology}
         \input{chapters/p-adic-method/adelic-topology/text.tex}
-        \section{Interpolation (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:p-adic-method:interpolation}
+        ]{Interpolation}
         \input{chapters/p-adic-method/interpolation/text.tex}
-        \section{Applications (draft)}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:p-adic-method:applications}
+        ]{Applications}
         \input{chapters/p-adic-method/applications/text.tex}
 
-    \chapter{Dynamics on Berkovich spaces (draft)}
-        \section{A theorem for attractor of endomorphism on k-affinoid spaces (draft)}
+    \chapter[
+      status=draft,
+      tag=000,
+      label=\labelNFM{chap:dynamics-on-berkovich-spaces}
+    ]{Dynamics on Berkovich spaces}
+        \section[
+          status=draft,
+          tag=00000,
+          label=\labelNFM{sec:dynamics-on-berkovich-spaces:a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces}
+        ]{A theorem for attractor of endomorphism on k-affinoid spaces}
         \input{chapters/dynamics-on-berkovich-spaces/a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces/text.tex}
     % manage-notes:end chapters
 

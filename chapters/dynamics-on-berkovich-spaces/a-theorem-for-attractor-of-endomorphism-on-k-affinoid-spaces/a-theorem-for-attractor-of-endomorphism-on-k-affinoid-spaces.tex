@@ -1,17 +1,22 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
 % !BIB program = biber
-\documentclass{noteformyself}
-% manage-notes:begin watermark
-\usepackage{draftwatermark}
-% manage-notes:end watermark
+\documentclass[sectionlevel=section,status=draft]{noteformyself}
+% manage-notes:begin setup
+\notesetup{
+  book={Algebraic, Analytic, and Arithmetic Dynamics},
+  book-tag=D,
+  chapter-tag=000,
+  status=draft
+}
+% manage-notes:end setup
 
 \newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}        % 批注命令
 \input{../../../accessories/notation.tex}               % 加载符号定义文件
 \addbibresource{../../../refs.bib}
 
 
-\title{A theorem for attractor of endomorphism on k-affinoid spaces (draft)}
+\title{A theorem for attractor of endomorphism on k-affinoid spaces}
 \author{Tianle Yang}
 \date{\today}
 \authorpage{\href{https://www.tianleyang.com}{My Homepage}}
@@ -22,7 +27,11 @@
     \maketitle
 
     % manage-notes:begin section
-    \section{A theorem for attractor of endomorphism on k-affinoid spaces (draft)}
+    \section[
+      status=draft,
+      tag=00000,
+      label=\labelNFM{sec:dynamics-on-berkovich-spaces:a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces}
+    ]{A theorem for attractor of endomorphism on k-affinoid spaces}
     % manage-notes:end section
 
     \input{text.tex} % 这里是正文

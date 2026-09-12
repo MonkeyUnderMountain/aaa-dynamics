@@ -1,17 +1,22 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
 % !BIB program = biber
-\documentclass[sectionlevel=chapter]{noteformyself}
-% manage-notes:begin watermark
-\usepackage{draftwatermark}
-% manage-notes:end watermark
+\documentclass[sectionlevel=chapter,status=draft]{noteformyself}
+% manage-notes:begin setup
+\notesetup{
+  book={Algebraic, Analytic, and Arithmetic Dynamics},
+  book-tag=D,
+  chapter-tag=000,
+  status=draft
+}
+% manage-notes:end setup
 
 \input{../../accessories/notation.tex}
 \addbibresource{../../refs.bib}
 \newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
 
 
-\title{The p-adic Method (draft)}
+\title{The p-adic Method}
 \author{Tianle Yang}
 \date{\today}
 \authorpage{\href{https://www.tianleyang.com}{My Homepage}}
@@ -32,11 +37,23 @@
     \tableofcontents
 
     % manage-notes:begin sections
-    \section{Adelic Topology (draft)}
+    \section[
+      status=draft,
+      tag=00000,
+      label=\labelNFM{sec:p-adic-method:adelic-topology}
+    ]{Adelic Topology}
     \input{adelic-topology/text.tex}
-    \section{Interpolation (draft)}
+    \section[
+      status=draft,
+      tag=00000,
+      label=\labelNFM{sec:p-adic-method:interpolation}
+    ]{Interpolation}
     \input{interpolation/text.tex}
-    \section{Applications (draft)}
+    \section[
+      status=draft,
+      tag=00000,
+      label=\labelNFM{sec:p-adic-method:applications}
+    ]{Applications}
     \input{applications/text.tex}
     % manage-notes:end sections
 

@@ -38,7 +38,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:the-first-introduction:some-conjectures",
+            "tag": "00000"
           },
           {
             "id": "examples-of-dynamics",
@@ -49,9 +51,13 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:the-first-introduction:examples-of-dynamics",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:the-first-introduction",
+        "tag": "000"
       },
       {
         "id": "actions-on-cohomology",
@@ -73,7 +79,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:actions-on-cohomology:dynamical-lorentzian-packages",
+            "tag": "00000"
           },
           {
             "id": "dynamical-degrees-and-lynapunov-multipliers",
@@ -84,7 +92,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:actions-on-cohomology:dynamical-degrees-and-lynapunov-multipliers",
+            "tag": "00000"
           },
           {
             "id": "actions-of-jordan-blocks",
@@ -95,9 +105,13 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:actions-on-cohomology:actions-of-jordan-blocks",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:actions-on-cohomology",
+        "tag": "000"
       },
       {
         "id": "periodic-points-and-orbits",
@@ -119,7 +133,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:periodic-points-and-orbits:density-of-periodic-points-for-cohomologically-hyperbolic-maps",
+            "tag": "00000"
           },
           {
             "id": "arithmetic-degrees-and-kawaguchi-silverman-conjecture",
@@ -130,9 +146,13 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:periodic-points-and-orbits:arithmetic-degrees-and-kawaguchi-silverman-conjecture",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:periodic-points-and-orbits",
+        "tag": "000"
       },
       {
         "id": "endomorphisms-on-projective-spaces",
@@ -154,7 +174,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:moduli-of-dynamics-on-projective-spaces",
+            "tag": "00000"
           },
           {
             "id": "the-bifurcation-theory",
@@ -165,7 +187,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:the-bifurcation-theory",
+            "tag": "00000"
           },
           {
             "id": "dynamical-uniform-boundedness",
@@ -176,9 +200,39 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness",
+            "tag": "00000"
+          },
+          {
+            "id": "dynamical-andre-oort-conjecture",
+            "title": "Dynamical Andre-Oort conjecture",
+            "order": 4,
+            "tex": "chapters/endomorphisms-on-projective-spaces/dynamical-andre-oort-conjecture/dynamical-andre-oort-conjecture.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/dynamical-andre-oort-conjecture/dynamical-andre-oort-conjecture.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:dynamical-andre-oort-conjecture",
+            "tag": "00000"
+          },
+          {
+            "id": "rigidity-of-multiplier-and-length-spectrum",
+            "title": "Rigidity of multiplier and length spectrum",
+            "order": 5,
+            "tex": "chapters/endomorphisms-on-projective-spaces/rigidity-of-multiplier-and-length-spectrum/rigidity-of-multiplier-and-length-spectrum.tex",
+            "url": "pdf/chapters/endomorphisms-on-projective-spaces/rigidity-of-multiplier-and-length-spectrum/rigidity-of-multiplier-and-length-spectrum.pdf",
+            "status": {
+              "published": 0,
+              "finished": 0
+            },
+            "label": "sec:endomorphisms-on-projective-spaces:rigidity-of-multiplier-and-length-spectrum",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:endomorphisms-on-projective-spaces",
+        "tag": "DPN"
       },
       {
         "id": "p-adic-method",
@@ -200,7 +254,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:p-adic-method:adelic-topology",
+            "tag": "00000"
           },
           {
             "id": "interpolation",
@@ -211,7 +267,9 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:p-adic-method:interpolation",
+            "tag": "00000"
           },
           {
             "id": "applications",
@@ -222,9 +280,13 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:p-adic-method:applications",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:p-adic-method",
+        "tag": "000"
       },
       {
         "id": "dynamics-on-berkovich-spaces",
@@ -246,10 +308,15 @@
             "status": {
               "published": 0,
               "finished": 0
-            }
+            },
+            "label": "sec:dynamics-on-berkovich-spaces:a-theorem-for-attractor-of-endomorphism-on-k-affinoid-spaces",
+            "tag": "00000"
           }
-        ]
+        ],
+        "label": "chap:dynamics-on-berkovich-spaces",
+        "tag": "000"
       }
-    ]
+    ],
+    "tag": "D"
   }
 }

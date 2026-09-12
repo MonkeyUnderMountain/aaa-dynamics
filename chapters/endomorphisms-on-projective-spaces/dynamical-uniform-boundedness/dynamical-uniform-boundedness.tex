@@ -1,16 +1,21 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
 % !BIB program = biber
-\documentclass{noteformyself}
-% manage-notes:begin watermark
-\usepackage{draftwatermark}
-% manage-notes:end watermark
+\documentclass[sectionlevel=section,status=draft]{noteformyself}
+% manage-notes:begin setup
+\notesetup{
+  book={Algebraic, Analytic, and Arithmetic Dynamics},
+  book-tag=D,
+  chapter-tag=DPN,
+  status=draft
+}
+% manage-notes:end setup
 
 \newcommand{\Yang}[1]{\textcolor{red}{Yang: #1}}
 \input{../../../accessories/notation.tex}
 \addbibresource{../../../refs.bib}
 
-\title{Dynamical uniform boundedness (draft)}
+\title{Dynamical uniform boundedness}
 \author{Tianle Yang}
 \date{\today}
 \authorpage{\href{https://www.tianleyang.com}{My Homepage}}
@@ -20,7 +25,11 @@
     \maketitle
 
     % manage-notes:begin section
-    \section{Dynamical uniform boundedness (draft)}
+    \section[
+      status=draft,
+      tag=00000,
+      label=\labelNFM{sec:endomorphisms-on-projective-spaces:dynamical-uniform-boundedness}
+    ]{Dynamical uniform boundedness}
     % manage-notes:end section
 
     \input{text.tex}
