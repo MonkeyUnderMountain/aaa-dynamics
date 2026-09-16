@@ -1,33 +1,70 @@
 % !TeX root = moduli-of-dynamics-on-projective-spaces.tex
 
-\subsection{Construction of coarse moduli}
 
-\begin{theorem}
-	We have $\dim \frakoperatorname{PolDyn}_{\bbP^1,q} = $. \Yang{}.
+The references of this section are \cite{Silverman-2012-ModuliSpacesArithmetic,Levy-2011-SpaceMorphismsProjective} and \Yang{}
+For some basic knowledge of moduli problem and geometric invariant theory, I refer to \Yang{}
+
+
+\begin{definition}[label=\labelNFM{def:the-moduli-functor-of-dynamics-on-projective-spaces}, status=draft, tag=0000000]
+	Let $X$ be a variety over an excellent base scheme $S$.
+	Let $\calPolDyn_{X,q}: \Sch_S \to \Set$ be the functor defined by
+	\[ T \mapsto \left\{ f:X\times T \to X \times T \;\middle|\; f_t: X \to X \text{ is } q\text{-polarized for every } t \in T(\kkk) \right\}. \]
+	\Yang{}
+\end{definition}
+
+On this chapter, we will use $\calD_{n,d}$ to denote the moduli functor $\calPolDyn_{\bbP^n,d}$.
+
+
+\subsection[status=draft,tag=0000000,label=\labelNFM{subsec:automorphism-of-dynamics-on-pn}]{The automorphisms group of a dynamics on projective space}
+
+\begin{theorem}[label=\labelNFM{thm:uniform-bound-for-the-auto-group-of-dynamics-on-pn}, status=draft, tag=0000000]
+	There exists a number $C = C_{n,d}$ depending only on $n$ and $d$ such that for any field $\kk$ and $[f] \in \calD_{n,d}(\kk)$,
+	\[ \# \Aut_{\kk}([f]) \leq C. \]
+\end{theorem}
+
+
+\subsection[status=draft,tag=0000000,label=\labelNFM{subsec:construction-of-coarse-moduli-of-dynamics-on-projective-space}]{Construction of coarse moduli}
+
+\begin{theorem}[label=\labelNFM{thm:existence-of-coarse-moduli-of-dynamics-on-projective-space}, status=draft, tag=0000000]
+	The coarse moduli space $D_{n,d}$ of the moduli functor $\calD_{n,d}$ exists.
+	And it is an affine variety of dimension $(n+1)C_{n+d}^d - (n+1)^2$.
+\end{theorem}
+\begin{proof}
+	\Yang{}
+\end{proof}
+
+\begin{example}[label=\labelNFM{eg:moduli-of-degree-two-maps-on-p1}, status=draft, tag=0000000]
+	Let us consider $D_{1,2}$, i.e., the coarse moduli space of degree two endomorphism on $\bbP^1$.
+	We claim that $D_{1,2} \cong \bbA^2$.
+\end{example}
+
+\begin{theorem}[label=\labelNFM{thm:coarse-moduli-of-dynamics-on-projective-line-is-rational}, status=draft, tag=0000000]
+	The variety $D_{1,d}$ is rational for all $d$.
+\end{theorem}
+\begin{proof}
+	\Yang{}
+\end{proof}
+
+
+
+
+\subsection[status=draft,tag=0000000,label=\labelNFM{subsec:focus-on-projective-lines}]{Focus on projective line}
+
+\begin{definition}[label=\labelNFM{def:pcf-map-on-pn}, status=draft, tag=0000000]
+	Let $f: \bbP^n \to \bbP^n$ be a \Yang{}
+	We say that $f$ is PCF if \Yang{}
+\end{definition}
+
+\begin{theorem}[label=\labelNFM{thm:pcf-points-defined-over-Qbar}, status=draft, tag=0000000]
+	Let $\kk$ be any field over $\bbQ$ and $[f] \in \calP_{1,d}(\kk)$ be a PCF point.
+	Then $[f]$ is indeed defined over $\bar{\bbQ}$, i.e., there exists that $[f_{\bar{\bbQ}}] \in \calP_{1,d}(\bar{\bbQ})$ such that $f = f_{\bar{\bbQ}} \times_{\bar{\bbQ}} \kk$.
+	\Yang{}
 \end{theorem}
 
 
 
-\begin{definition}[label=\labelNFM{def:test}, status=draft, tag=0000000]
-	that is ok, \Yang{}
-\end{definition}
-ok.
-
-test the cref. \cref{def:test}.
 
 
-\subsection{An example and some special locus}
-
-\begin{example}[label=eg:moduli-of-degree-two-maps-on-p1, status=draft, tag=0000000]
-	Let us consider $\calP_{2,1}$
-\end{example}
-
-\begin{example}[label=\labelNFM{eg:eg:moduli}, status=draft, tag=0000000]
-	let us test again.
-\end{example}
-
-
-\cref{eg:eg:moduli}
 
 
 
